@@ -4,4 +4,5 @@ This software system will be a mess management system which can  be used by the 
 There are two parts of project
 1) Software
 2) Android application
+
 More details are given in SRS and PPT provided.
