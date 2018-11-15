@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="feedback">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-border-radius: 10;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="190.0" fitWidth="319.0" layoutX="141.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Downloads/feedback-1.jpg" />
+               </image>
+            </ImageView>
+            <TextArea fx:id="feedbackarea" layoutX="14.0" layoutY="124.0" prefHeight="111.0" prefWidth="580.0" />
+            <Button layoutX="264.0" layoutY="283.0" mnemonicParsing="false" onAction="#submit" prefHeight="32.0" prefWidth="97.0" style="-fx-background-radius: 30; -fx-background-color: #FFC0CB;" text="Submit" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
