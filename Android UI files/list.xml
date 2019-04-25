@@ -8,4 +8,5 @@
     android:textStyle="bold"
     android:clickable="true"
     android:textColor="#000000">
+    //sdhs
 </TextView>
